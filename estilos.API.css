@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background-color: #ede8de;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+header {
+    padding: 25px 0 25px;
+    background-color: #000000;
+    color: #ede8de;
+    border-top: 10px solid #ff041b;
+    border-bottom: 10px solid #0029ae;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+}
+
+footer {
+    padding: 25px 0 25px;
+    background-color: #000000;
+    color: #ede8de;
+    border-top: 10px solid #ff041b;
+    border-bottom: 10px solid #0029ae;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+h1, h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+
+#Bandera img, #Escudo img {
+    height: 150px;
+    margin: 0 0 25px;
+}
+
+#Bandera, #Escudo, #Nombres, #Capital, #Region, #Subregion {
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    margin: 50px;
+    padding: 25px;
+    border: 10px solid #000000;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#Frontera {
+    display: inline-block;
+    width: 300px;
+    height: 750px;
+    margin: 50px;
+    padding: 25px;
+    border: 10px solid #000000;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#AreaPoblacion {
+    display: inline-block;
+    width: 300px;
+    height: 500px;
+    margin: 50px;
+    padding: 25px;
+    border: 10px solid #000000;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+select, button {
+    margin: 50px 25px 0;
+    background-color: #ede8de;
+    border: 5px solid #000000;
+    border-radius: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}
